@@ -330,6 +330,11 @@ class RemoteSessionService : Service() {
             HostSession.status.value = "Screen capture failed: ${e.message}"
             return
         }
+        if (projection == null) {
+            Log.e(TAG, "getMediaProjection returned null")
+            HostSession.status.value = "Screen capture failed"
+            return
+        }
         mediaProjection = projection
         val (cw, ch) = NetworkUtils.captureSize()
         HostSession.captureSize.value = Pair(cw, ch)
