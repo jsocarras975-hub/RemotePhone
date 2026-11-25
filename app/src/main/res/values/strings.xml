@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RemotePhone</string>
+    <string name="a11y_service_description">RemotePhone uses this service to turn taps, swipes and key presses sent from the controlling phone into real touches on this phone, while a remote session is active. Nothing is injected unless you accepted a session.</string>
+    <string name="limits_title">What it can and cannot do</string>
+    <string name="limits_body">No root needed. While a session is live you will see a persistent notification and can stop it any time. It cannot unlock the lock screen, and it cannot touch some secure system dialogs (for example permission prompts) — those need a human finger on this phone.</string>
+</resources>
