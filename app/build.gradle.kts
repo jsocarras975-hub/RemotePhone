@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.remotephone.app"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.remotephone.app"
